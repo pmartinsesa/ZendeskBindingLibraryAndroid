@@ -1,0 +1,24 @@
+﻿<metadata>
+	<attr path="/api/package[@name='coil.memory']/class[@name='MemoryCache.Key.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='coil.memory']/class[@name='MemoryCache.Key.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+
+	<add-node path="/api/package[@name='coil.target']/class[@name='ImageViewTarget']">
+		<method name="onPause" return="void" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
+			<parameter name="p0" type="AndroidX.Lifecycle.ILifecycleOwner" />
+		</method>
+		<method name="onDestroy" return="void" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
+			<parameter name="p0" type="AndroidX.Lifecycle.ILifecycleOwner" />
+		</method>
+		<method name="onResume" return="void" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
+			<parameter name="p0" type="AndroidX.Lifecycle.ILifecycleOwner" />
+		</method>
+		<method name="onCreate" return="void" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
+			<parameter name="p0" type="AndroidX.Lifecycle.ILifecycleOwner" />
+		</method>
+	</add-node>
+	
+	<attr path="/api/package[@name='coil.target']/class[@name='ImageViewTarget']/method[@name='getView' and count(parameter)=0]" name="managedReturn">Android.Views.View</attr>
+	<remove-node path="/api/package[@name='coil.target']/interface[@name='ViewTarget']"/>
+
+	<remove-node path="/api/package[@name='coil.drawable']/class[@name='CrossfadeDrawable']/implements[@name='androidx.vectordrawable.graphics.drawable.Animatable2Compat']" />
+</metadata>

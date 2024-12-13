@@ -1,0 +1,288 @@
+﻿<metadata>
+	<attr path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='AuthorJsonAdapter']/method[@name='fromJson' and count(parameter)=1 and parameter[1][@type='com.squareup.moshi.JsonReader']]" name="managedReturn">Java.Lang.Object</attr>
+	<attr
+		path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='AuthorJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.conversationkit.android.model.Author']]/parameter[2]"
+		name="managedType">
+		Java.Lang.Object
+	</attr>
+
+	<attr path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='ConversationJsonAdapter']/method[@name='fromJson' and count(parameter)=1 and parameter[1][@type='com.squareup.moshi.JsonReader']]" name="managedReturn">Java.Lang.Object</attr>
+	<attr
+		path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='ConversationJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.conversationkit.android.model.Conversation']]/parameter[2]"
+		name="managedType">
+		Java.Lang.Object
+	</attr>
+
+	<attr path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='ConversationsPaginationJsonAdapter']/method[@name='fromJson' and count(parameter)=1 and parameter[1][@type='com.squareup.moshi.JsonReader']]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='ConversationsPaginationJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.conversationkit.android.model.ConversationsPagination']]/parameter[2]" name="managedType">
+		Java.Lang.Object
+	</attr>
+
+	<attr path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='FieldOptionJsonAdapter']/method[@name='fromJson' and count(parameter)=1 and parameter[1][@type='com.squareup.moshi.JsonReader']]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='FieldOptionJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.conversationkit.android.model.FieldOption']]/parameter[2]" name="managedType">
+		Java.Lang.Object
+	</attr>
+
+	<attr path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='Field_EmailJsonAdapter']/method[@name='fromJson' and count(parameter)=1 and parameter[1][@type='com.squareup.moshi.JsonReader']]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='Field_EmailJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.conversationkit.android.model.Field.Email']]/parameter[2]" name="managedType">
+		Java.Lang.Object
+	</attr>
+
+	<attr path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='Field_SelectJsonAdapter']/method[@name='fromJson' and count(parameter)=1 and parameter[1][@type='com.squareup.moshi.JsonReader']]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='Field_SelectJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.conversationkit.android.model.Field.Select']]/parameter[2]" name="managedType">
+		Java.Lang.Object
+	</attr>
+
+	<attr path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='Field_TextJsonAdapter']/method[@name='fromJson' and count(parameter)=1 and parameter[1][@type='com.squareup.moshi.JsonReader']]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='Field_TextJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.conversationkit.android.model.Field.Text']]/parameter[2]" name="managedType">
+		Java.Lang.Object
+	</attr>
+
+	<attr path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageAction_BuyJsonAdapter']/method[@name='fromJson' and count(parameter)=1 and parameter[1][@type='com.squareup.moshi.JsonReader']]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageAction_BuyJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.conversationkit.android.model.MessageAction.Buy']]/parameter[2]" name="managedType">
+		Java.Lang.Object
+	</attr>
+
+	<attr path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageAction_LinkJsonAdapter']/method[@name='fromJson' and count(parameter)=1 and parameter[1][@type='com.squareup.moshi.JsonReader']]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageAction_LinkJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.conversationkit.android.model.MessageAction.Link']]/parameter[2]" name="managedType">
+		Java.Lang.Object
+	</attr>
+
+	<attr path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageAction_LocationRequestJsonAdapter']/method[@name='fromJson' and count(parameter)=1 and parameter[1][@type='com.squareup.moshi.JsonReader']]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageAction_LocationRequestJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.conversationkit.android.model.MessageAction.LocationRequest']]/parameter[2]" name="managedType">
+		Java.Lang.Object
+	</attr>
+
+	<attr path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageAction_PostbackJsonAdapter']/method[@name='fromJson' and count(parameter)=1 and parameter[1][@type='com.squareup.moshi.JsonReader']]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageAction_PostbackJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.conversationkit.android.model.MessageAction.Postback']]/parameter[2]" name="managedType">
+		Java.Lang.Object
+	</attr>
+
+	<attr path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageAction_ReplyJsonAdapter']/method[@name='fromJson' and count(parameter)=1 and parameter[1][@type='com.squareup.moshi.JsonReader']]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageAction_ReplyJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.conversationkit.android.model.MessageAction.Reply']]/parameter[2]" name="managedType">
+		Java.Lang.Object
+	</attr>
+
+	<attr path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageAction_ShareJsonAdapter']/method[@name='fromJson' and count(parameter)=1 and parameter[1][@type='com.squareup.moshi.JsonReader']]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageAction_ShareJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.conversationkit.android.model.MessageAction.Share']]/parameter[2]" name="managedType">
+		Java.Lang.Object
+	</attr>
+
+	<attr path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageAction_WebViewJsonAdapter']/method[@name='fromJson' and count(parameter)=1 and parameter[1][@type='com.squareup.moshi.JsonReader']]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageAction_WebViewJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.conversationkit.android.model.MessageAction.WebView']]/parameter[2]" name="managedType">
+		Java.Lang.Object
+	</attr>
+
+	<attr path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageContent_CarouselJsonAdapter']/method[@name='fromJson' and count(parameter)=1 and parameter[1][@type='com.squareup.moshi.JsonReader']]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageContent_CarouselJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.conversationkit.android.model.MessageContent.Carousel']]/parameter[2]" name="managedType">
+		Java.Lang.Object
+	</attr>
+
+	<attr path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageContent_FileJsonAdapter']/method[@name='fromJson' and count(parameter)=1 and parameter[1][@type='com.squareup.moshi.JsonReader']]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageContent_FileJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.conversationkit.android.model.MessageContent.File']]/parameter[2]" name="managedType">
+		Java.Lang.Object
+	</attr>
+
+	<attr path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageContent_FileUploadJsonAdapter']/method[@name='fromJson' and count(parameter)=1 and parameter[1][@type='com.squareup.moshi.JsonReader']]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageContent_FileUploadJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.conversationkit.android.model.MessageContent.FileUpload']]/parameter[2]" name="managedType">
+		Java.Lang.Object
+	</attr>
+
+	<attr path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageContent_FormJsonAdapter']/method[@name='fromJson' and count(parameter)=1 and parameter[1][@type='com.squareup.moshi.JsonReader']]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageContent_FormJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.conversationkit.android.model.MessageContent.Form']]/parameter[2]" name="managedType">
+		Java.Lang.Object
+	</attr>
+
+	<attr
+    path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageContent_FormResponseJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.conversationkit.android.model.MessageContent.FormResponse']]/parameter[2]"
+    name="managedType">
+    Java.Lang.Object
+</attr>
+
+<attr
+    path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageContent_FormResponseJsonAdapter']/method[@name='fromJson' and count(parameter)=1 and parameter[1][@type='com.squareup.moshi.JsonReader']]"
+    name="managedReturn">
+    Java.Lang.Object
+</attr>
+
+<attr
+    path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageContent_ImageJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.conversationkit.android.model.MessageContent.Image']]/parameter[2]"
+    name="managedType">
+    Java.Lang.Object
+</attr>
+
+<attr
+    path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageContent_ImageJsonAdapter']/method[@name='fromJson' and count(parameter)=1 and parameter[1][@type='com.squareup.moshi.JsonReader']]"
+    name="managedReturn">
+    Java.Lang.Object
+</attr>
+
+<attr
+    path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageContent_TextJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.conversationkit.android.model.MessageContent.Text']]/parameter[2]"
+    name="managedType">
+    Java.Lang.Object
+</attr>
+
+<attr
+    path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageContent_TextJsonAdapter']/method[@name='fromJson' and count(parameter)=1 and parameter[1][@type='com.squareup.moshi.JsonReader']]"
+    name="managedReturn">
+    Java.Lang.Object
+</attr>
+
+<attr
+    path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageContent_UnsupportedJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.conversationkit.android.model.MessageContent.Unsupported']]/parameter[2]"
+    name="managedType">
+    Java.Lang.Object
+</attr>
+
+<attr
+    path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageContent_UnsupportedJsonAdapter']/method[@name='fromJson' and count(parameter)=1 and parameter[1][@type='com.squareup.moshi.JsonReader']]"
+    name="managedReturn">
+    Java.Lang.Object
+</attr>
+
+<attr
+    path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageItemJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.conversationkit.android.model.MessageItem']]/parameter[2]"
+    name="managedType">
+    Java.Lang.Object
+</attr>
+
+<attr
+    path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageItemJsonAdapter']/method[@name='fromJson' and count(parameter)=1 and parameter[1][@type='com.squareup.moshi.JsonReader']]"
+    name="managedReturn">
+    Java.Lang.Object
+</attr>
+
+<attr
+    path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.conversationkit.android.model.Message']]/parameter[2]"
+    name="managedType">
+    Java.Lang.Object
+</attr>
+
+<attr
+    path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageJsonAdapter']/method[@name='fromJson' and count(parameter)=1 and parameter[1][@type='com.squareup.moshi.JsonReader']]"
+    name="managedReturn">
+    Java.Lang.Object
+</attr>
+
+<attr
+    path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageListJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.conversationkit.android.model.MessageList']]/parameter[2]"
+    name="managedType">
+    Java.Lang.Object
+</attr>
+
+<attr
+    path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageListJsonAdapter']/method[@name='fromJson' and count(parameter)=1 and parameter[1][@type='com.squareup.moshi.JsonReader']]"
+    name="managedReturn">
+    Java.Lang.Object
+</attr>
+
+<attr
+    path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageStatus_FailedJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.conversationkit.android.model.MessageStatus.Failed']]/parameter[2]"
+    name="managedType">
+    Java.Lang.Object
+</attr>
+
+<attr
+    path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageStatus_FailedJsonAdapter']/method[@name='fromJson' and count(parameter)=1 and parameter[1][@type='com.squareup.moshi.JsonReader']]"
+    name="managedReturn">
+    Java.Lang.Object
+</attr>
+
+<attr
+    path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageStatus_PendingJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.conversationkit.android.model.MessageStatus.Pending']]/parameter[2]"
+    name="managedType">
+    Java.Lang.Object
+</attr>
+
+<attr
+    path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageStatus_PendingJsonAdapter']/method[@name='fromJson' and count(parameter)=1 and parameter[1][@type='com.squareup.moshi.JsonReader']]"
+    name="managedReturn">
+    Java.Lang.Object
+</attr>
+
+<attr
+    path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageStatus_SentJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.conversationkit.android.model.MessageStatus.Sent']]/parameter[2]"
+    name="managedType">
+    Java.Lang.Object
+</attr>
+
+<attr
+    path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='MessageStatus_SentJsonAdapter']/method[@name='fromJson' and count(parameter)=1 and parameter[1][@type='com.squareup.moshi.JsonReader']]"
+    name="managedReturn">
+    Java.Lang.Object
+</attr>
+
+<attr
+    path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='ParticipantJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.conversationkit.android.model.Participant']]/parameter[2]"
+    name="managedType">
+    Java.Lang.Object
+</attr>
+
+<attr
+    path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='ParticipantJsonAdapter']/method[@name='fromJson' and count(parameter)=1 and parameter[1][@type='com.squareup.moshi.JsonReader']]"
+    name="managedReturn">
+    Java.Lang.Object
+</attr>
+
+<attr
+    path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='ProactiveMessageJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.conversationkit.android.model.ProactiveMessage']]/parameter[2]"
+    name="managedType">
+    Java.Lang.Object
+</attr>
+
+<attr
+    path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='ProactiveMessageJsonAdapter']/method[@name='fromJson' and count(parameter)=1 and parameter[1][@type='com.squareup.moshi.JsonReader']]"
+    name="managedReturn">
+    Java.Lang.Object
+</attr>
+
+<attr
+    path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='RealtimeSettingsJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.conversationkit.android.model.RealtimeSettings']]/parameter[2]"
+    name="managedType">
+    Java.Lang.Object
+</attr>
+
+<attr
+    path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='RealtimeSettingsJsonAdapter']/method[@name='fromJson' and count(parameter)=1 and parameter[1][@type='com.squareup.moshi.JsonReader']]"
+    name="managedReturn">
+    Java.Lang.Object
+</attr>
+
+<attr
+    path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='TypingSettingsJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.conversationkit.android.model.TypingSettings']]/parameter[2]"
+    name="managedType">
+    Java.Lang.Object
+</attr>
+
+<attr
+    path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='TypingSettingsJsonAdapter']/method[@name='fromJson' and count(parameter)=1 and parameter[1][@type='com.squareup.moshi.JsonReader']]"
+    name="managedReturn">
+    Java.Lang.Object
+</attr>
+
+<attr
+    path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='UserJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.conversationkit.android.model.User']]/parameter[2]"
+    name="managedType">
+    Java.Lang.Object
+</attr>
+
+<attr
+    path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='UserJsonAdapter']/method[@name='fromJson' and count(parameter)=1 and parameter[1][@type='com.squareup.moshi.JsonReader']]"
+    name="managedReturn">
+    Java.Lang.Object
+</attr>
+
+<attr
+    path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='UserMergeJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.conversationkit.android.model.UserMerge']]/parameter[2]"
+    name="managedType">
+    Java.Lang.Object
+</attr>
+
+<attr
+    path="/api/package[@name='zendesk.conversationkit.android.model']/class[@name='UserMergeJsonAdapter']/method[@name='fromJson' and count(parameter)=1 and parameter[1][@type='com.squareup.moshi.JsonReader']]"
+    name="managedReturn">
+    Java.Lang.Object
+</attr>
+
+</metadata>

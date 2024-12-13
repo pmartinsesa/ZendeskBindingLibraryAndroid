@@ -1,0 +1,27 @@
+﻿<metadata>
+	<attr path="/api/package[@name='zendesk.android.internal.di']/interface[@name='ZendeskComponent']" name="visibility">public</attr>
+	<attr path="/api/package[@name='zendesk.android.settings.internal']/interface[@name='SettingsApi']" name="visibility">public</attr>
+	<attr path="/api/package[@name='zendesk.android.internal.frontendevents']/interface[@name='FrontendEventsApi']" name="visibility">public</attr>
+	<attr path="/api/package[@name='zendesk.android.internal.proactivemessaging']/interface[@name='ProactiveMessagingService']" name="visibility">public</attr>
+
+	<attr path="/api/package[@name='zendesk.android.internal.di']/class[@name='CoroutineDispatchersModule_DefaultDispatcherFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.android.internal.di']/class[@name='CoroutineDispatchersModule_PersistenceDispatcherFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.android.internal.di']/class[@name='CoroutineDispatchersModule_IoDispatcherFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.android.internal.di']/class[@name='CoroutineDispatchersModule_MainDispatcherFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.android.internal.di']/class[@name='ZendeskInitializedModule_ProvidesConversationKitFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.android.internal.di']/class[@name='ZendeskInitializedModule_ProvidesFeatureFlagManagerFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.android.internal.di']/class[@name='ZendeskInitializedModule_ProvidesMessagingFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.android.internal.di']/class[@name='ZendeskModule_SettingsApiFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.android.internal.frontendevents.di']/class[@name='FrontendEventsModule_ProvidesFrontendEventsApiFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.android.internal.frontendevents.di']/class[@name='FrontendEventsModule_ProvidesFrontendEventsStorageFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.android.internal.network']/class[@name='NetworkModule_CacheDirFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.android.internal.network']/class[@name='NetworkModule_MoshiConverterFactoryFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.android.internal.network']/class[@name='NetworkModule_MoshiFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.android.internal.network']/class[@name='NetworkModule_OkHttpClientFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.android.internal.network']/class[@name='NetworkModule_RetrofitFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.android.internal.proactivemessaging.di']/class[@name='ProactiveMessagingModule_ProvidesCampaignTriggerServiceFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.android.internal.proactivemessaging.di']/class[@name='ProactiveMessagingModule_ProvidesCurrentTimeProviderFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.android.internal.proactivemessaging.di']/class[@name='ProactiveMessagingModule_ProvidesProactiveMessagingStorageFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.android']/class[@name='Zendesk_Factory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+
+</metadata>

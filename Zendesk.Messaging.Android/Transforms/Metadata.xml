@@ -1,0 +1,117 @@
+﻿<metadata>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationscreen.di']/class[@name='ConversationScreenModule_ProvidesConversationViewModelFactoryFactory']" name="managedName">ProvidesConversationViewModelFactory</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationscreen.di']/class[@name='ConversationScreenModule_ProvidesConversationViewModelFactoryFactory']" name="extends">java.lang.Object</attr>
+
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationscreen.di']/class[@name='MessageLogModule_ProvidesMessageLogTimestampFormatterFactory']" name="managedName">ProvidesMessageLogTimestampFormatterFactory</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationscreen.di']/class[@name='MessageLogModule_ProvidesMessageLogTimestampFormatterFactory']" name="extends">java.lang.Object</attr>
+
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen.conversation.cache']/class[@name='ConversationsListInMemoryCache_Factory']" name="managedName">Factory</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen.conversation.cache']/class[@name='ConversationsListInMemoryCache_Factory']" name="extends">java.lang.Object</attr>
+
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen.conversation.cache']/class[@name='ConversationsListLocalStorageSerializer_Factory']" name="managedName">Factory</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen.conversation.cache']/class[@name='ConversationsListLocalStorageSerializer_Factory']" name="extends">java.lang.Object</attr>
+
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen.di']/class[@name='ConversationsListLocalStorageModule_ProvidesConversationsListLocalStorageFactory']" name="managedName">ProvidesConversationsListLocalStorageFactory</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen.di']/class[@name='ConversationsListLocalStorageModule_ProvidesConversationsListLocalStorageFactory']" name="extends">java.lang.Object</attr>
+
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen.di']/class[@name='ConversationsListLocalStorageModule_ProvidesConversationsListStorageFactory']" name="managedName">ProvidesConversationsListStorageFactory</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen.di']/class[@name='ConversationsListLocalStorageModule_ProvidesConversationsListStorageFactory']" name="extends">java.lang.Object</attr>
+
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen.di']/class[@name='ConversationsListLocalStorageModule_ProvidesConversationsListStorageTypeFactory']" name="managedName">ProvidesConversationsListStorageTypeFactory</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen.di']/class[@name='ConversationsListLocalStorageModule_ProvidesConversationsListStorageTypeFactory']" name="extends">java.lang.Object</attr>
+
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen.di']/class[@name='ConversationsListScreenModule_ProvidesComputationDispatcherFactory']" name="managedName">ProvidesComputationDispatcherFactory</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen.di']/class[@name='ConversationsListScreenModule_ProvidesComputationDispatcherFactory']" name="extends">java.lang.Object</attr>
+
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen.di']/class[@name='ConversationsListScreenModule_ProvidesConversationsListScreenViewModelFactory']" name="managedName">ProvidesConversationsListScreenViewModelFactory</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen.di']/class[@name='ConversationsListScreenModule_ProvidesConversationsListScreenViewModelFactory']" name="extends">java.lang.Object</attr>
+
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen.di']/class[@name='ConversationsListScreenModule_ProvidesIODispatcherFactory']" name="managedName">ProvidesIODispatcherFactory</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen.di']/class[@name='ConversationsListScreenModule_ProvidesIODispatcherFactory']" name="extends">java.lang.Object</attr>
+
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen.di']/class[@name='ConversationsListScreenModule_ProvidesIs24HoursFactory']" name="managedName">ProvidesIs24HoursFactor</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen.di']/class[@name='ConversationsListScreenModule_ProvidesIs24HoursFactory']" name="extends">java.lang.Object</attr>
+
+	<remove-node  path="/api/package[@name='zendesk.messaging.android']/interface[@name='Messaging']" />
+	<attr
+		path="/api/package[@name='zendesk.messaging.android.internal.conversationscreen.cache']/class[@name='MessagingUIPersistenceJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.messaging.android.internal.conversationscreen.cache.MessagingUIPersistence']]/parameter[2]"
+		name="managedType">
+			Java.Lang.Object
+	</attr>
+	<attr
+		path="/api/package[@name='zendesk.messaging.android.internal.conversationscreen.cache']/class[@name='MessagingUIPersistenceJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.messaging.android.internal.conversationscreen.cache.MessagingUIPersistence']]/parameter[2]"
+		name="managedType">
+		Java.Lang.Object
+	</attr>
+	<attr
+		path="/api/package[@name='zendesk.messaging.android.internal.conversationscreen.cache']/class[@name='StoredFormJsonAdapter']/method[@name='toJson' and count(parameter)=2 and parameter[1][@type='com.squareup.moshi.JsonWriter'] and parameter[2][@type='zendesk.messaging.android.internal.conversationscreen.cache.StoredForm']]/parameter[2]"
+		name="managedType">
+		Java.Lang.Object
+	</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationscreen.cache']/class[@name='StoredFormJsonAdapter']/method[@name='fromJson' and count(parameter)=1 and parameter[1][@type='com.squareup.moshi.JsonReader']]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationscreen.cache']/class[@name='MessagingUIPersistenceJsonAdapter']/method[@name='fromJson' and count(parameter)=1 and parameter[1][@type='com.squareup.moshi.JsonReader']]" name="managedReturn">Java.Lang.Object</attr>
+
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.validation']/interface[@name='ConversationFieldService']" name="visibility">public</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen.conversation.cache']/interface[@name='ConversationsListLocalStorageIO']" name="visibility">public</attr>
+
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.validation.di']/class[@name='ConversationFieldModule_ProvideConversationFieldServiceFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.rest']/class[@name='NetworkModule_RetrofitFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.rest']/class[@name='NetworkModule_OkHttpClientFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.rest']/class[@name='NetworkModule_MoshiFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.rest']/class[@name='NetworkModule_MoshiConverterFactoryFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.di']/class[@name='StorageModule_ProvidesStorageTypeFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.di']/class[@name='StorageModule_ProvidesStorageFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.di']/class[@name='StorageModule_ProvidesMoshiSerializerFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen.di']/class[@name='ConversationsListScreenModule_ProvidesLocaleFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationscreen.cache']/class[@name='MessagingStorageSerializer_Factory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationscreen']/class[@name='ConversationActivity_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='androidx.appcompat.app.AppCompatActivity']]/parameter[1]" name="managedType">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationscreen']/class[@name='ImageViewerActivity_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='androidx.appcompat.app.AppCompatActivity']]/parameter[1]" name="managedType">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen']/class[@name='ConversationsListActivity_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='androidx.appcompat.app.AppCompatActivity']]/parameter[1]" name="managedType">Java.Lang.Object</attr>
+
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationscreen.di']/class[@name='ConversationScreenModule_ProvidesConversationViewModelFactoryFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen.di']/class[@name='ConversationsListScreenModule_ProvidesComputationDispatcherFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen.di']/class[@name='ConversationsListLocalStorageModule_ProvidesConversationsListLocalStorageFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen.di']/class[@name='ConversationsListScreenModule_ProvidesConversationsListScreenViewModelFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen.di']/class[@name='ConversationsListLocalStorageModule_ProvidesConversationsListStorageFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen.di']/class[@name='ConversationsListLocalStorageModule_ProvidesConversationsListStorageTypeFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen.di']/class[@name='ConversationsListScreenModule_ProvidesIODispatcherFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen.di']/class[@name='ConversationsListScreenModule_ProvidesIs24HoursFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+
+
+
+	<!--<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen']/class[@name='ConversationsListActivityKt']" name="managedName">ConversationsListActivity</attr>-->
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen']/class[@name='ConversationsListActivity']" name="visibility">public</attr>
+	<!--<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen']/class[@name='ConversationsListActivity']/field[@name='conversationsListScreenViewModelFactory' and count(parameter)=0]" name="managedName">ConversationsListScreenViewModelFactory</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen']/class[@name='ConversationsListActivity']/field[@name='messagingSettings' and count(parameter)=0]" name="managedName">MessagingSettings</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen']/class[@name='ConversationsListActivity']/field[@name='userDarkColors' and count(parameter)=0]" name="managedName">UserDarkColors</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen']/class[@name='ConversationsListActivity']/field[@name='userLightColors' and count(parameter)=0]" name="managedName">UserLightColors</attr>
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen']/class[@name='ConversationsListActivity']/field[@name='visibleScreenTracker' and count(parameter)=0]" name="managedName">VisibleScreenTracker</attr>-->
+	 <!--<add-node path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen']/class[@name='ConversationsListActivity']">
+		<constructor>
+		  <parameter name="android.content.Context" type="android.content.Context" />
+		</constructor>
+		<constructor>
+		  <parameter name="android.content.Context" type="android.content.Context" />
+		  <parameter name="android.util.AttributeSet" type="android.util.AttributeSet" />
+		</constructor>
+	</add-node>-->
+
+	
+	
+
+	<attr path="/api/package[@name='zendesk.messaging.android.internal.conversationslistscreen']/class[@name='ConversationsListScreenView']" name="visibility">public</attr>
+
+
+</metadata>
+
+
+
+<!--ConversationsListActivity-->
+<!--ConversationsListScreenView-->
+
+<!--name="ConversationsListScreenView"-->
+
+
+<!--'Unable to start activity ComponentInfo{com.companyname.apptestechat/zendesk.messaging.android.internal.conversationslistscreen.ConversationsListActivity}: android.view.InflateException: 
+Binary XML file line #1 in com.companyname.apptestechat:layout/zma_screen_conversations_list: Binary XML file line #1 in com.companyname.apptestechat:layout/zma_screen_conversations_list: \
+Error inflating class zendesk.messaging.android.internal.conversationslistscreen.ConversationsListScreenView'-->
